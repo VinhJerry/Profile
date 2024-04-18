@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Profile Me</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="letter.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   </head>
+   <body>
+      <div class="animated_rainbow_1">Click ava me ❤️</div>➷<br>
+
+      <div class="container">
+         <div class="wrapper">
+            <a href="#">
+            <img src="sadboiz.jpg" alt="">
+            </a>
+            <div class="title">
+               <div class="animated_rainbow_1">Vinh Jerry</div>
+            </div>
+            <div class="mail">
+               <button><i class="fa-regular fa-envelope"></i></button>
+           </div>
+            <div class="place">
+               9/10/2003
+            </div>
+            <br>
+         </div>
+         <div class="content">
+            <p>
+               If have u forever ❤️ <br>I will give up everything!
+            </p>
+            <div class="buttons">
+               <div class="btn">
+                  <button><a href="https://www.facebook.com/messages/e2ee/t/25280901338175895"><span class="fab fa-facebook-messenger"></span></a> Messenger</button>
+               </div>
+               <div class="btn">
+                  <button><a href="tel:+84797459313"><span class="fa-solid fa-mobile-screen-button"></span></a> Calling me</button>
+               </div>
+            </div>
+         </div>
+         <div class="icons">
+            <li><a href="https://www.facebook.com/profile.php?id=100022135630826"><span class="fab fa-facebook-f"></span></a></li>
+            <li><a href="https://www.tiktok.com/@dont4get_me_?lang=vi-VN"><span class="fab fa-tiktok"></span></a></li>
+            <li><a href="https://github.com/VinhJerry"><span class="fab fa-github"></span></a></li>
+         </div>
+      </div>
+      <script>
+         const img = document.querySelector("img");
+         const icons = document.querySelector(".icons");
+         img.onclick = function(){
+           this.classList.toggle("active");
+           icons.classList.toggle("active");
+         }
+      </script>
+      <script>
+         var mail = document.querySelector(".mail")
+         mail.addEventListener("click", ()=>{
+             window.location.href = "mail.html"
+         })
+     </script>
+   </body>
+</html>
